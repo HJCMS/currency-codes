@@ -1,0 +1,11 @@
+--- runall.sh.orig	2022-12-28 07:45:01.326387107 +0100
++++ runall.sh	2022-12-28 07:45:30.558549293 +0100
+@@ -18,6 +18,6 @@
+ fi;
+ echo Downloading XML files...
+-curl -s -o cache/a1.xml "https://www.currency-iso.org/dam/downloads/lists/list_one.xml"
+-curl -s -o cache/a2.xml "https://www.currency-iso.org/dam/downloads/lists/list_three.xml"
++curl -s -o cache/a1.xml "https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-one.xml"
++curl -s -o cache/a2.xml "https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-three.xml"
+ 
+ # write headers
